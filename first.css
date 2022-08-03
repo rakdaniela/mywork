@@ -1,0 +1,88 @@
+
+.wrapper{
+    background-color: white;
+    padding: 0 10px 10px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.header{
+    height: 100px;
+    background-color: rgb(252, 218, 27);
+}
+h1{
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+h4{
+    text-align: center;
+}
+.menu{
+    height: 30px;
+    background-color: rgb(248, 187, 20);
+}
+.main{
+    height: calc(100vh - 140px);
+    
+    min-height: 40px;
+}
+.footer{
+    height: 100px;
+    background-color: #7C470C ;
+}
+.el1, .el2{
+    width: 150px;
+    height: 940px;
+}
+.el1{
+    float: left;
+    background-color: aliceblue;
+}
+.el2{
+    float: right;
+  background-color: aliceblue;
+}
+.el3{
+    background: #ECD81E;
+background: -moz-linear-gradient(-45deg, #ECD81E 0%, #E0913F 50%, #7C470C 100%);
+background: -webkit-linear-gradient(-45deg, #ECD81E 0%, #E0913F 50%, #7C470C 100%);
+background: linear-gradient(135deg, #ECD81E 0%, #E0913F 50%, #7C470C 100%);
+    height: 940px;
+    overflow: hidden;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+  }
+  .cards img {
+    margin: 10px;
+    border: 3px solid rgb(248, 129, 61);
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 23vw;
+  }
+  .cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: flex-end;
+  }
+  .cards1 img {
+    margin: 10px;
+    border: 3px solid rgb(248, 129, 61);
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 23vw;
+  }
+.q{
+    color: white;
+    text-align: center;
+    
+}
